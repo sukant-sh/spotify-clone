@@ -1,20 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
-body{
+
+body {
     background-color: antiquewhite;
 
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
 
 }
 
-nav{
+nav {
     font-family: 'Ubuntu', sans-serif;
 }
 
-nav ul{
+nav ul {
     display: flex;
     align-items: center;
     list-style-type: none;
@@ -23,24 +25,24 @@ nav ul{
     color: white;
 }
 
-nav ul li{
+nav ul li {
     padding: 0 12px;
 }
 
-.brand img{
-   width: 44px;
-   padding: 0 8px;
+.brand img {
+    width: 44px;
+    padding: 0 8px;
 
 }
 
-.brand{
+.brand {
     display: flex;
     align-items: center;
     font-size: 1.3rem;
     font-weight: bolder;
 }
 
-.container{
+.container {
     min-height: 72vh;
     background-color: black;
     color: white;
@@ -55,18 +57,19 @@ nav ul li{
 
 }
 
-.bottom{
+.bottom {
     position: sticky;
     bottom: 0;
     height: 130px;
-    background-color:black;
+    background-color: black;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-.icons{
+
+.icons {
     margin-top: 14px;
 
 }
@@ -75,34 +78,34 @@ nav ul li{
     cursor: pointer;
 }
 
-#myProgressBar{
+#myProgressBar {
     width: 40vh;
     cursor: pointer;
 }
 
-.songItemContainer{
+.songItemContainer {
     margin-top: 74px;
 
 }
 
-.songItem{
-    height: 50px;
-    display: flex;
-    background-color: white;
+.songItem {
     color: black;
     margin: 12px 0;
     justify-content: space-between;
     align-items: center;
     border-radius: 34px;
+    height: 50px;
+    display: flex;
+    background-color: white;
 }
-    
-.songItem img{
+
+.songItem img {
     width: 43px;
     margin: 0 23px;
     border-radius: 34px;
 }
 
-.timestamp{
+.timestamp {
     margin: 0 23px;
 }
 
@@ -110,19 +113,21 @@ nav ul li{
     cursor: pointer;
 
 }
-.songInfo{
+
+.songInfo {
     position: absolute;
     left: 10vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.songInfo img{
+.songInfo img {
     opacity: 0;
     transition: 0.4 ease-in;
 
 }
-@media only screen and (max-width: 1100px){
-    body{
+
+@media only screen and (max-width: 1100px) {
+    body {
         background-color: red;
     }
 }
